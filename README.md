@@ -1,8 +1,3 @@
-Absolutely ✅ — here’s a **ready-to-paste, perfectly formatted `README.md`** version.
-It uses clean Markdown, emojis, headers, and spacing that render beautifully on GitHub.
-You can copy this **as-is** into your project’s root and it’ll look professional and clear.
-
----
 
 # 🚀 MGN-Investments Web App
 
