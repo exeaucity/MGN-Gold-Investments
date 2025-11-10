@@ -67,7 +67,7 @@ MGN-investments/
 ### 2️⃣ Clone the Project
 
 ```bash
-git clone https://github.com/<your-org-or-user>/MGN-investments.git
+git clone https://github.com/exeaucity/MGN-Gold-Investments.git
 cd MGN-investments
 ```
 
