@@ -18,7 +18,7 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgres://app:app@db:5432/app")
 
 @app.get("/health")
 async def health():
-    return {"ok": True, "env": "backend"}
+    return {"oki": True, "env": "backend"}
 
 @app.get("/api/users")
 async def users():
