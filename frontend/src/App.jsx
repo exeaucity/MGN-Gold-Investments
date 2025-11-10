@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 
 const API = import.meta.env.VITE_API_URL || "http://localhost:4000";
@@ -7,9 +8,9 @@ export default function App() {
 
   useEffect(() => {
     fetch(`${API}/health`)
-      .then(r => r.json())
-      .then(d => setStatus(JSON.stringify(d, null, 2)))
-      .catch(e => setStatus(String(e)));
+      .then((r) => r.json())
+      .then((d) => setStatus(JSON.stringify(d, null, 2)))
+      .catch((e) => setStatus(String(e)));
   }, []);
 
   return (
@@ -21,4 +22,3 @@ export default function App() {
     </div>
   );
 }
-v
