@@ -2,8 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
 import psycopg2
+from src.routers import test1 
 
 app = FastAPI()
+app.include_router(test1.router)
+
 
 # Allow the React dev server to call the API (relax for dev)
 app.add_middleware(
@@ -18,7 +21,8 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgres://app:app@db:5432/app")
 
 @app.get("/health")
 async def health():
-    return {"oki": True, "env": "backend"}
+    return {"okgg": True, "env": "backend"}
+
 
 @app.get("/api/users")
 async def users():
@@ -31,3 +35,5 @@ async def users():
         return {"db_ok": True, "users": []}
     except Exception as e:
         return {"error": str(e)}
+
+

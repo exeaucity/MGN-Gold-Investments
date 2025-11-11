@@ -1,5 +1,5 @@
 up: ## Start all services
-docker compose up -d --build
+	docker compose up -d --build
 
 
 logs: ## Tail logs
@@ -11,7 +11,7 @@ docker compose stop
 
 
 down: ## Stop and remove containers
-docker compose down
+	docker compose down
 
 
 clean: ## Remove containers and volumes (DB will reset!)
