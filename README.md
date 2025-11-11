@@ -8,7 +8,7 @@ Clone, copy the `.env`, and start coding — works the same for everyone!
 
 ---
 
-## 🧩 Tech Stack
+## 🧩 Tech Stack👍
 
 | Layer              | Technology     | Description                           |
 | :----------------- | :------------- | :------------------------------------ |
